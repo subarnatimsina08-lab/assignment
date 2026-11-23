@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){ 
+    int principal, rate, time,si,total;
+    printf("enter principal amount:");
+    scanf("%f", &principal);
+    printf(enter rate of interest (%%):");
+    scanf("%f", &rate);
+    peintf("enter time (in years): ");
+    scanf("%f",&time);
+    si = (principple * rate * time)/100;
+    total = principal + si;
+    printf("\nsimple interest = %.2f\n", si);
+    printf("total amount = %.2f\n",total);
+    return 0;
+}
